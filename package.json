@@ -1,0 +1,27 @@
+{
+  "name": "mvmodels",
+  "version": "1.0.0",
+  "description": "Provides mongoose models for services targeting video/file-sharing MongoDB database schemas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntvs/mvmodels.git"
+  },
+  "keywords": [
+    "Mongoose",
+    "Schema",
+    "ntvs"
+  ],
+  "author": "ntvs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ntvs/mvmodels/issues"
+  },
+  "homepage": "https://github.com/ntvs/mvmodels#readme",
+  "dependencies": {
+    "mongoose": "^7.1.0"
+  }
+}
