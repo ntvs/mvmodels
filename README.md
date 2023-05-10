@@ -19,7 +19,7 @@ First, include Mongoose and setup the following boilerplate code:
 const mongoose = require("mongoose");
 
 //Mongoose establish connection
-mongoose.connect("mongodb://127.0.0.1:27017"); //Your connection URL
+mongoose.connect("mongodb://127.0.0.1:27017"); //Your database URL
 const db = mongoose.connection;
 
 //Mongoose connection event listeners
