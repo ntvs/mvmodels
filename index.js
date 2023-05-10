@@ -35,5 +35,5 @@ const getAllSchemaNames = () => {
     return result;
 };
 
-//Export models
+//Exports
 module.exports = { registerSchemas, getAllSchemas, getAllSchemaNames, schemas };
