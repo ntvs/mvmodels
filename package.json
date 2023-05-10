@@ -1,6 +1,6 @@
 {
   "name": "@ntvs/mvmodels",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides mongoose models for services targeting video/file-sharing MongoDB database schemas.",
   "main": "index.js",
   "scripts": {
