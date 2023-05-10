@@ -24,5 +24,16 @@ const getAllSchemas = () => {
     return result;
 };
 
+//Get all schema names as an array
+const getAllSchemaNames = () => {
+    let result = [];
+
+    schemas.forEach(schema => {
+        result.push(schema.name);
+    });
+
+    return result;
+};
+
 //Export models
-module.exports = { registerSchemas, getAllSchemas, schemas };
+module.exports = { registerSchemas, getAllSchemas, getAllSchemaNames, schemas };
