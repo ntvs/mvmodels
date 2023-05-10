@@ -13,7 +13,7 @@ npm i mvmodels
 ```
 
 # How to use
-First, include Mongoose and setup the following boilerplate code:
+First, include Mongoose and setup the following boilerplate code (if you have not already):
 ```javascript
 //Mongoose
 const mongoose = require("mongoose");
