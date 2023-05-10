@@ -19,4 +19,4 @@ const videoFileSchema = new mongoose.Schema({
     // }
 });
 
-module.exports = mongoose.model('VideoFile', videoFileSchema);
+module.exports = videoFileSchema //mongoose.model('VideoFile', videoFileSchema);
