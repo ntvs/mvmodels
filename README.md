@@ -9,7 +9,7 @@ npm i mongoose
 
 Then, install this package using NPM by running:
 ```
-npm i mvmodels
+npm i @ntvs/mvmodels
 ```
 
 # How to use
