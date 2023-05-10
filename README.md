@@ -7,7 +7,7 @@ To use this package, you should have the latest version of Mongoose installed. T
 npm i mongoose
 ```
 
-Then, install this package using NPM, simply run:
+Then, install this package using NPM by running:
 ```
 npm i mvmodels
 ```
@@ -32,14 +32,14 @@ db.once("open", () => {
 });
 ```
 
-Then, include the package in your node project:
+Then, require the package in your node project:
 ```javascript
 const mvmodels = require('mvmodels');
 ```
 
 # Registering schemas
 To use the schemas in this package, they must first be registered with your local Mongoose instance.
-This package provides a helper function which registers all included models for you. The function accepts the local Mongoose instance as its only argument.
+This package provides a helper function which registers all included schemas for you and creates models. The function accepts the local Mongoose instance as its only argument.
 ```javascript
 mvmodels.registerSchemas(mongoose);
 ```
@@ -58,11 +58,11 @@ console.log(mvmodels.getAllSchemaNames());
 # Additional functions & properties
 ## Functions
 ### getAllSchemas()
-Same as `getAllSchemas()` but returns the actual Mongoose schema objects.
+Same as `getAllSchemaNames()` but returns the actual Mongoose schema objects in an array.
 
-## properties
+## Properties
 ### mvmodels.schemas
-Return an array of objects containing all available schemas in the form
+Returns an array of objects containing all available schemas in the form
 ```javascript
 [
     {"name": "VideoFile", "schema": VideoFile},
