@@ -62,7 +62,7 @@ Same as `getAllSchemaNames()` but returns the actual Mongoose schema objects in 
 
 ## Properties
 ### mvmodels.schemas
-Returns an array of objects containing all available schemas in the form
+Returns an array of objects containing all available schemas in the form:
 ```javascript
 [
     {"name": "VideoFile", "schema": VideoFile},
